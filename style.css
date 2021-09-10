@@ -1,0 +1,214 @@
+* { /*CSS Reset*/
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h4 {
+    display: block;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+div#oneAboveAll {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+}
+
+div#topBar {
+    background-color: black;
+}
+
+div.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 60px;
+    width: 780px;
+    padding: 0px 10px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+div#main {
+    display: flex;
+    margin: 10px auto;
+    width: 780px;
+}
+
+div#contents, div#connectionBar, div.subContent {
+    display: flex;
+    flex-direction: column;
+
+}
+
+div#contents {
+    width: 500px;
+    margin: 10px auto;
+}
+
+div#contents > div {
+    width: 480px;
+    margin: 10px auto;
+}
+
+div#connectionBar {
+    width: 280px;
+    margin: 10px auto;
+}
+
+div#connectionBar > div {
+    width: 260px;
+    margin: 10px auto;
+}
+.nav-title {
+    color: white;
+    margin: 0px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+a.active:link,
+a.active:visited,
+a.active:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:link,
+.nav a:visited,
+.nav a:hover {
+    text-decoration: none;
+    color: darkgray;
+}
+
+ul.nav-links li {
+    padding: 3px 10px;
+}
+
+button#navBtn {
+    background-color: teal; /* Green */
+    border: 2px solid black;
+    color: white;
+    padding: 10px 10px;
+    box-shadow: 5px 5px black;
+}
+
+div#card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 480px;
+}
+
+div#cardTop {
+    height: 64px;
+    background-color: aqua;
+    border: 2px solid aqua;
+    }
+
+div#cardBottom {
+    height: 196px;
+}
+
+div#cardContents {
+    position: absolute;
+    top: 20px;
+    left: 12px;
+    height: auto;
+}
+
+div.info *, div.subBody * {
+    margin: 2px;
+}
+
+#pic {
+    height: 96px;    
+}
+
+img.icon {
+    height: 50px;
+    vertical-align: middle;
+}
+
+img.cardIcon, img.connect {
+    height: 20px;
+    vertical-align: middle;
+}
+
+#pic, img.icon {
+    border-radius: 50%;
+}
+
+li.requestList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.subHead {
+    background-color: rgba(45,45,45);
+    border: 2px solid rgba(45,45,45);
+    color: white;
+}
+
+div.subBody, div#cardBottom {
+    background-color: white;
+    border: 2px solid rgb(182, 182, 182);
+    border-top: 0px;
+}
+
+ul.connectionList {
+    list-style-type: none;
+}
+
